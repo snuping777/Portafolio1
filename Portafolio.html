@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yarlenson Mena Palacios</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; 
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #4b0082, #8a2be2);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        section {
+            background: #1e1e1e;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+        }
+        h2 {
+            color: #8a2be2;
+            border-bottom: 2px solid #4b0082;
+            padding-bottom: 10px;
+        }
+        .project {
+            margin: 15px 0;
+            padding: 10px;
+            border-left: 5px solid #4b0082; 
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: linear-gradient(90deg, #4b0082, #8a2be2);
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .language {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .languages-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .language img {
+            width: 40px; 
+            height: 40px;
+            margin-right: 10px;
+            transition: transform 0.3s;
+        }
+        .language img:hover {
+            transform: scale(1.1);
+        }
+        a.email {
+            color: #4b0082;
+            font-weight: bold;
+        }
+        a.email:hover {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Portafolio de Yarlenson</h1>
+    <nav>
+        <a href="#about">Descripción</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#languages">Idiomas</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</header>
+<div class="container">
+    <section id="about">
+        <h2>Acerca de Mí</h2>
+        <p>Hola, soy Yarlenson, un aprendiz en programación apasionado por la tecnología y el desarrollo web. Tengo experiencia en HTML, Python y algo de diseño gráfico. Aprendo rápidamente nuevos temas y enfrento desafíos en el mundo de la programación. En mi tiempo libre, disfruto de los videojuegos, voy al gimnasio, leo y navego en redes sociales para mantenerme actualizado y distraerme un poco.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto 1: I.A</h3>
+            <p>Descripción: Una inteligencia artificial para la salud mental en colegios de Montería donde trabajo con Devscorp. Mi propósito es ayudar a las instituciones con estudiantes más sanos mentalmente y para que estén más preparados para la vida, ayudándolos a no tener decisiones suicidas. <a href="https://tu-sitio-web.com" target="_blank" style="color: #4b0082;">Ver Proyecto</a></p>
+        </div>
+        <div class="project">
+            <h3>Proyecto 2: Red social</h3>
+            <p>Descripción: En compañía de Devscorp, (No se pueden dar detalles todavía) <a href="https://tu-aplicacion.com" target="_blank" style="color: #4b0082;">Ver Proyecto</a></p>
+        </div>
+        <div class="project">
+            <h3>Proyecto 3: Juego de historia institucional</h3>
+            <p>Descripción: Es un juego modo Historia donde, mientras avanzas, te enseña la Historia de tu institución educativa para que así sea más fácil aprenderte los orígenes de tu institución. <a href="https://tu-juego.com" target="_blank" style="color: #4b0082;">Ver Proyecto</a></p>
+        </div>
+    </section>
+
+    <section id="languages">
+        <h2>Idiomas de Programación que manejo</h2>
+        <div class="languages-container"> 
+            <div class="language">
+                <img src="ruta/a/tu/icono/5968544.png" alt="Python"> 
+                <span>Python</span>
+            </div>
+            <div class="language">
+                <img src="ruta/a/tu/icono/html5-01_icon-icons.com_50875.png" alt="HTML"> 
+                <span>HTML</span>
+            </div>
+            <div class="language">
+                <img src="ruta/a/tu/icono/732007.png" alt="CSS"> 
+                <span>CSS</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerte en contacto conmigo, puedes enviarme un correo a <a href="mailto:yarlenson777@gmail.com" class="email">yarlenson777@gmail.com</a> o seguirme en mis redes sociales.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Yarlenson Mena Palacios. Todos los derechos reservados. </p>
+</footer>
+
+</body>
+</html>
